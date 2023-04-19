@@ -24,6 +24,7 @@ public class Libro {
        private Long isbn;
      private String titulo;
      private Integer ejemplares;
+     private String archivoquenosirveosi;
      
      @Temporal(TemporalType.DATE)
      private Date alta;
